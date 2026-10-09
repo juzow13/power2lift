@@ -1,0 +1,89 @@
+body {
+  font-family: -apple-system, "Hiragino Sans", "Yu Gothic", Arial, sans-serif;
+  margin: 2rem;
+  background-color: #f5f4f2;
+  color: #0e0e0e;
+  line-height: 1.7;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+a {
+  color: #db5c45;
+}
+
+.meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.lang-switch {
+  text-align: right;
+  font-size: 0.85rem;
+  margin-bottom: 1rem;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero img {
+  width: 128px;
+  height: 128px;
+  border-radius: 22%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.hero h1 {
+  margin: 1rem 0 0.25rem;
+}
+
+.lead {
+  font-size: 1.15rem;
+  margin: 0 0 2rem;
+}
+
+.features {
+  padding: 0;
+  list-style: none;
+}
+
+.features li {
+  background: #fff;
+  border-left: 4px solid #db5c45;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0;
+}
+
+.features strong {
+  display: block;
+}
+
+footer {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 0.5rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  body {
+    margin: 1rem;
+  }
+}
